@@ -1,0 +1,25 @@
+body{
+  text-align:center;
+  background:linear-gradient(Green 0%, Blue 100%);
+  background-repeat:no-repeat;
+}
+h1{
+  text-shadow:2px 2px Green;
+  color:blue;
+}
+p{
+  padding:100px;
+  font-size:24px;
+}
+.links{
+    float: left;
+    list-style: none;
+    z-index: 10;
+}
+.welcome{
+    z-index: 9;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+.links:hover{
+    background-color: burlywood;
+}
